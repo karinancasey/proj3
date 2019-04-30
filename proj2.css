@@ -1,0 +1,114 @@
+/*
+Karina Casey
+CS 346 Project 2
+March 2019
+
+Stylesheet for proj2.html. Not very exciting.
+
+ */
+
+body {
+  background-color: #d2e7f2;
+  color: #00527e;
+}
+
+#bigcontainer {
+  display: flex;
+}
+
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#top {
+  display: flex;
+}
+
+#boxtops {
+  display: flex;
+}
+
+.boxleft {
+  width: 43px;
+  height: 80px;
+  border-right: 1px solid black;
+}
+
+.boxtop {
+  /* haha, boxtops  */
+  width: 80px;
+  height: 43px;
+  border-bottom: 1px solid black;
+
+}
+
+.boxleft, .boxtop {
+  background-color: #c7c7c7;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  font-size: 12px;
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filled {
+  background-color: #007fc2;
+}
+
+#game {
+  width: 450px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 2px solid #83cbf1;
+  border-bottom: 2px solid #83cbf1;
+  background-color: white;
+}
+
+#header {
+  text-align: center;
+}
+
+#littlebox {
+  background-color: #c7c7c7;
+  width: 44px;
+  height: 44px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+#sidebar {
+  margin-right: 200px;
+  background-color: #c7c7c7;
+  width: 175px;
+  height: 100%;
+  border-radius: 0px 7px 7px 0px;
+}
+
+.square {
+  border: 1px solid black;
+  width: 79px;
+  height: 79px;
+}
+
+.stat {
+  margin-bottom: 15px;
+  width: 175px;
+}
+
+#therest {
+  display: flex;
+}
